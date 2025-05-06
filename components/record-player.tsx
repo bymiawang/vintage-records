@@ -60,7 +60,7 @@ export function RecordPlayer() {
     if (!dustFilterRef.current) {
       dustFilterRef.current = new Audio("/audio/vinyl-crackling.mp3")
       dustFilterRef.current.loop = true
-      dustFilterRef.current.volume = 0.05 * (volume / 100)
+      dustFilterRef.current.volume = 0.1 * (volume / 100)
     }
 
     return () => {

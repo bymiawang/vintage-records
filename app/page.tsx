@@ -9,8 +9,8 @@ export default function Home() {
       <main className="min-h-screen bg-amber-950/90 text-amber-100">
         <div className="container mx-auto px-4 py-8">
           <header className="mb-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-es-allianz font-extrabold tracking-normal mb-2">Vintage Records</h1>
-            <p className="text-amber-200/80 font-es-allianz font-regular tracking-normal">An immersive journey through time and sound</p>
+            <h1 className="text-4xl md:text-5xl font-es-allianz font-extrabold tracking-normal mb-2">Public Records</h1>
+            <p className="text-amber-200/80 font-es-allianz font-regular tracking-normal">An immersive journey through time and sound.</p>
           </header>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
